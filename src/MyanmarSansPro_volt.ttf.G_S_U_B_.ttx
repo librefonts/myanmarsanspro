@@ -1,0 +1,2638 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=1 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="mym2"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=6 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+            <FeatureIndex index="2" value="3"/>
+            <FeatureIndex index="3" value="2"/>
+            <FeatureIndex index="4" value="5"/>
+            <FeatureIndex index="5" value="4"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=1 -->
+          <LangSysRecord index="0">
+            <LangSysTag value="zz01"/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=37 -->
+              <FeatureIndex index="0" value="6"/>
+              <FeatureIndex index="1" value="7"/>
+              <FeatureIndex index="2" value="8"/>
+              <FeatureIndex index="3" value="9"/>
+              <FeatureIndex index="4" value="10"/>
+              <FeatureIndex index="5" value="11"/>
+              <FeatureIndex index="6" value="12"/>
+              <FeatureIndex index="7" value="13"/>
+              <FeatureIndex index="8" value="14"/>
+              <FeatureIndex index="9" value="15"/>
+              <FeatureIndex index="10" value="16"/>
+              <FeatureIndex index="11" value="17"/>
+              <FeatureIndex index="12" value="18"/>
+              <FeatureIndex index="13" value="19"/>
+              <FeatureIndex index="14" value="20"/>
+              <FeatureIndex index="15" value="21"/>
+              <FeatureIndex index="16" value="22"/>
+              <FeatureIndex index="17" value="23"/>
+              <FeatureIndex index="18" value="24"/>
+              <FeatureIndex index="19" value="25"/>
+              <FeatureIndex index="20" value="26"/>
+              <FeatureIndex index="21" value="27"/>
+              <FeatureIndex index="22" value="28"/>
+              <FeatureIndex index="23" value="29"/>
+              <FeatureIndex index="24" value="30"/>
+              <FeatureIndex index="25" value="31"/>
+              <FeatureIndex index="26" value="32"/>
+              <FeatureIndex index="27" value="33"/>
+              <FeatureIndex index="28" value="34"/>
+              <FeatureIndex index="29" value="35"/>
+              <FeatureIndex index="30" value="36"/>
+              <FeatureIndex index="31" value="37"/>
+              <FeatureIndex index="32" value="38"/>
+              <FeatureIndex index="33" value="39"/>
+              <FeatureIndex index="34" value="40"/>
+              <FeatureIndex index="35" value="41"/>
+              <FeatureIndex index="36" value="42"/>
+            </LangSys>
+          </LangSysRecord>
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=43 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="blwf"/>
+        <Feature>
+          <!-- LookupCount=7 -->
+          <LookupListIndex index="0" value="0"/>
+          <LookupListIndex index="1" value="2"/>
+          <LookupListIndex index="2" value="3"/>
+          <LookupListIndex index="3" value="21"/>
+          <LookupListIndex index="4" value="22"/>
+          <LookupListIndex index="5" value="34"/>
+          <LookupListIndex index="6" value="36"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="locl"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="18"/>
+          <LookupListIndex index="1" value="20"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="2">
+        <FeatureTag value="pref"/>
+        <Feature>
+          <!-- LookupCount=4 -->
+          <LookupListIndex index="0" value="4"/>
+          <LookupListIndex index="1" value="8"/>
+          <LookupListIndex index="2" value="9"/>
+          <LookupListIndex index="3" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="3">
+        <FeatureTag value="pstf"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="19"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="4">
+        <FeatureTag value="rlig"/>
+        <Feature>
+          <!-- LookupCount=33 -->
+          <LookupListIndex index="0" value="0"/>
+          <LookupListIndex index="1" value="1"/>
+          <LookupListIndex index="2" value="6"/>
+          <LookupListIndex index="3" value="7"/>
+          <LookupListIndex index="4" value="8"/>
+          <LookupListIndex index="5" value="9"/>
+          <LookupListIndex index="6" value="10"/>
+          <LookupListIndex index="7" value="11"/>
+          <LookupListIndex index="8" value="12"/>
+          <LookupListIndex index="9" value="13"/>
+          <LookupListIndex index="10" value="14"/>
+          <LookupListIndex index="11" value="15"/>
+          <LookupListIndex index="12" value="16"/>
+          <LookupListIndex index="13" value="17"/>
+          <LookupListIndex index="14" value="18"/>
+          <LookupListIndex index="15" value="19"/>
+          <LookupListIndex index="16" value="20"/>
+          <LookupListIndex index="17" value="21"/>
+          <LookupListIndex index="18" value="22"/>
+          <LookupListIndex index="19" value="23"/>
+          <LookupListIndex index="20" value="24"/>
+          <LookupListIndex index="21" value="25"/>
+          <LookupListIndex index="22" value="26"/>
+          <LookupListIndex index="23" value="27"/>
+          <LookupListIndex index="24" value="28"/>
+          <LookupListIndex index="25" value="29"/>
+          <LookupListIndex index="26" value="30"/>
+          <LookupListIndex index="27" value="31"/>
+          <LookupListIndex index="28" value="32"/>
+          <LookupListIndex index="29" value="33"/>
+          <LookupListIndex index="30" value="34"/>
+          <LookupListIndex index="31" value="35"/>
+          <LookupListIndex index="32" value="36"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="5">
+        <FeatureTag value="rphf"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="5"/>
+          <LookupListIndex index="1" value="6"/>
+          <LookupListIndex index="2" value="7"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="6">
+        <FeatureTag value="zz01"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="7">
+        <FeatureTag value="zz02"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="1"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="8">
+        <FeatureTag value="zz03"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="2"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="9">
+        <FeatureTag value="zz04"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="3"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="10">
+        <FeatureTag value="zz05"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="4"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="11">
+        <FeatureTag value="zz06"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="5"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="12">
+        <FeatureTag value="zz07"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="13">
+        <FeatureTag value="zz08"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="7"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="14">
+        <FeatureTag value="zz09"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="15">
+        <FeatureTag value="zz10"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="16">
+        <FeatureTag value="zz11"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="17">
+        <FeatureTag value="zz12"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="18">
+        <FeatureTag value="zz13"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="12"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="19">
+        <FeatureTag value="zz14"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="20">
+        <FeatureTag value="zz15"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="14"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="21">
+        <FeatureTag value="zz16"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="15"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="22">
+        <FeatureTag value="zz17"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="23">
+        <FeatureTag value="zz18"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="17"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="24">
+        <FeatureTag value="zz19"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="25">
+        <FeatureTag value="zz20"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="19"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="26">
+        <FeatureTag value="zz21"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="20"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="27">
+        <FeatureTag value="zz22"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="21"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="28">
+        <FeatureTag value="zz23"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="22"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="29">
+        <FeatureTag value="zz24"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="23"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="30">
+        <FeatureTag value="zz25"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="24"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="31">
+        <FeatureTag value="zz26"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="25"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="32">
+        <FeatureTag value="zz27"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="26"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="33">
+        <FeatureTag value="zz28"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="27"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="34">
+        <FeatureTag value="zz29"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="28"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="35">
+        <FeatureTag value="zz30"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="29"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="36">
+        <FeatureTag value="zz31"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="30"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="37">
+        <FeatureTag value="zz32"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="31"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="38">
+        <FeatureTag value="zz33"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="32"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="39">
+        <FeatureTag value="zz34"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="33"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="40">
+        <FeatureTag value="zz35"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="34"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="41">
+        <FeatureTag value="zz36"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="35"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="42">
+        <FeatureTag value="zz37"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="36"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=60 -->
+      <Lookup index="0">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=8 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u1008"/>
+            <Glyph value="u1009"/>
+            <Glyph value="u100A"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100D"/>
+            <Glyph value="u101B"/>
+            <Glyph value="u1020"/>
+            <Glyph value="u1039_1000"/>
+            <Glyph value="u1039_1001"/>
+            <Glyph value="u1039_1002"/>
+            <Glyph value="u1039_1003"/>
+            <Glyph value="u1039_1004"/>
+            <Glyph value="u1039_1005"/>
+            <Glyph value="u1039_1006"/>
+            <Glyph value="u1039_1007"/>
+            <Glyph value="u1039_1008"/>
+            <Glyph value="u1039_100B"/>
+            <Glyph value="u1039_100C"/>
+            <Glyph value="u1039_100F"/>
+            <Glyph value="u1039_1010"/>
+            <Glyph value="u1039_1011"/>
+            <Glyph value="u1039_1012"/>
+            <Glyph value="u1039_1013"/>
+            <Glyph value="u1039_1014"/>
+            <Glyph value="u1039_1015"/>
+            <Glyph value="u1039_1016"/>
+            <Glyph value="u1039_1017"/>
+            <Glyph value="u1039_1018"/>
+            <Glyph value="u1039_1019"/>
+            <Glyph value="u1039_101C"/>
+            <Glyph value="u1039_101D"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="37"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u1000"/>
+            <Glyph value="u1001"/>
+            <Glyph value="u1002"/>
+            <Glyph value="u1003"/>
+            <Glyph value="u1004"/>
+            <Glyph value="u1005"/>
+            <Glyph value="u1006"/>
+            <Glyph value="u1007"/>
+            <Glyph value="u1008"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100F"/>
+            <Glyph value="u1010"/>
+            <Glyph value="u1011"/>
+            <Glyph value="u1012"/>
+            <Glyph value="u1013"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u1015"/>
+            <Glyph value="u1016"/>
+            <Glyph value="u1017"/>
+            <Glyph value="u1018"/>
+            <Glyph value="u1019"/>
+            <Glyph value="u101C"/>
+            <Glyph value="u101D"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="1">
+            <Glyph value="u103C"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="37"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u1000"/>
+            <Glyph value="u1001"/>
+            <Glyph value="u1002"/>
+            <Glyph value="u1003"/>
+            <Glyph value="u1004"/>
+            <Glyph value="u1005"/>
+            <Glyph value="u1006"/>
+            <Glyph value="u1007"/>
+            <Glyph value="u1008"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100F"/>
+            <Glyph value="u1010"/>
+            <Glyph value="u1011"/>
+            <Glyph value="u1012"/>
+            <Glyph value="u1013"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u1015"/>
+            <Glyph value="u1016"/>
+            <Glyph value="u1017"/>
+            <Glyph value="u1018"/>
+            <Glyph value="u1019"/>
+            <Glyph value="u101C"/>
+            <Glyph value="u101D"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="1">
+            <Glyph value="u103C_big"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="37"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="3" Format="3">
+          <!-- BacktrackGlyphCount=3 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="2">
+            <Glyph value="u1000"/>
+            <Glyph value="u1001"/>
+            <Glyph value="u1002"/>
+            <Glyph value="u1003"/>
+            <Glyph value="u1004"/>
+            <Glyph value="u1005"/>
+            <Glyph value="u1006"/>
+            <Glyph value="u1007"/>
+            <Glyph value="u1008"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100F"/>
+            <Glyph value="u1010"/>
+            <Glyph value="u1011"/>
+            <Glyph value="u1012"/>
+            <Glyph value="u1013"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u1015"/>
+            <Glyph value="u1016"/>
+            <Glyph value="u1017"/>
+            <Glyph value="u1018"/>
+            <Glyph value="u1019"/>
+            <Glyph value="u101C"/>
+            <Glyph value="u101D"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="2" Format="2">
+            <Glyph value="u103C"/>
+            <Glyph value="u103C_big"/>
+            <Glyph value="u103C_1"/>
+            <Glyph value="u103C_2"/>
+            <Glyph value="u103C_3"/>
+            <Glyph value="u103C_big_1"/>
+            <Glyph value="u103C_big_2"/>
+            <Glyph value="u103C_big_3"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="37"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="4" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="u103B"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="37"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="5" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="1">
+            <Glyph value="u103B"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="37"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="6" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="2">
+            <Glyph value="u1039_1000"/>
+            <Glyph value="u1039_1001"/>
+            <Glyph value="u1039_1002"/>
+            <Glyph value="u1039_1003"/>
+            <Glyph value="u1039_1004"/>
+            <Glyph value="u1039_1005"/>
+            <Glyph value="u1039_1006"/>
+            <Glyph value="u1039_1007"/>
+            <Glyph value="u1039_1008"/>
+            <Glyph value="u1039_100B"/>
+            <Glyph value="u1039_100C"/>
+            <Glyph value="u1039_100F"/>
+            <Glyph value="u1039_1010"/>
+            <Glyph value="u1039_1011"/>
+            <Glyph value="u1039_1012"/>
+            <Glyph value="u1039_1013"/>
+            <Glyph value="u1039_1014"/>
+            <Glyph value="u1039_1015"/>
+            <Glyph value="u1039_1016"/>
+            <Glyph value="u1039_1017"/>
+            <Glyph value="u1039_1018"/>
+            <Glyph value="u1039_1019"/>
+            <Glyph value="u1039_101C"/>
+            <Glyph value="u1039_101D"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="37"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="7" Format="3">
+          <!-- BacktrackGlyphCount=3 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value=""/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="2">
+            <Glyph value="u1000"/>
+            <Glyph value="u1001"/>
+            <Glyph value="u1002"/>
+            <Glyph value="u1003"/>
+            <Glyph value="u1004"/>
+            <Glyph value="u1005"/>
+            <Glyph value="u1006"/>
+            <Glyph value="u1007"/>
+            <Glyph value="u1008"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100F"/>
+            <Glyph value="u1010"/>
+            <Glyph value="u1011"/>
+            <Glyph value="u1012"/>
+            <Glyph value="u1013"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u1015"/>
+            <Glyph value="u1016"/>
+            <Glyph value="u1017"/>
+            <Glyph value="u1018"/>
+            <Glyph value="u1019"/>
+            <Glyph value="u101C"/>
+            <Glyph value="u101D"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="2" Format="1">
+            <Glyph value="u103C"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="37"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="1">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u1009"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+            <Glyph value="u103A"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="38"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="2">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u1039">
+            <Ligature components="u1000" glyph="u1039_1000"/>
+            <Ligature components="u1001" glyph="u1039_1001"/>
+            <Ligature components="u1002" glyph="u1039_1002"/>
+            <Ligature components="u1003" glyph="u1039_1003"/>
+            <Ligature components="u1004" glyph="u1039_1004"/>
+            <Ligature components="u1005" glyph="u1039_1005"/>
+            <Ligature components="u1006" glyph="u1039_1006"/>
+            <Ligature components="u1007" glyph="u1039_1007"/>
+            <Ligature components="u1008" glyph="u1039_1008"/>
+            <Ligature components="u100B" glyph="u1039_100B"/>
+            <Ligature components="u100C" glyph="u1039_100C"/>
+            <Ligature components="u100F" glyph="u1039_100F"/>
+            <Ligature components="u1010" glyph="u1039_1010"/>
+            <Ligature components="u1011" glyph="u1039_1011"/>
+            <Ligature components="u1012" glyph="u1039_1012"/>
+            <Ligature components="u1013" glyph="u1039_1013"/>
+            <Ligature components="u1014" glyph="u1039_1014"/>
+            <Ligature components="u1015" glyph="u1039_1015"/>
+            <Ligature components="u1016" glyph="u1039_1016"/>
+            <Ligature components="u1017" glyph="u1039_1017"/>
+            <Ligature components="u1018" glyph="u1039_1018"/>
+            <Ligature components="u1019" glyph="u1039_1019"/>
+            <Ligature components="u101C" glyph="u1039_101C"/>
+            <Ligature components="u101D" glyph="u1039_101D"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="3">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u1039_101D">
+            <Ligature components="u103E" glyph="u1039_101D_103E"/>
+          </LigatureSet>
+          <LigatureSet glyph="u103D">
+            <Ligature components="u103E" glyph="u1039_101D_103E"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="4">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103C"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u1000"/>
+            <Glyph value="u1003"/>
+            <Glyph value="u1006"/>
+            <Glyph value="u100F"/>
+            <Glyph value="u1010"/>
+            <Glyph value="u1011"/>
+            <Glyph value="u1018"/>
+            <Glyph value="u101A"/>
+            <Glyph value="u101C"/>
+            <Glyph value="u101E"/>
+            <Glyph value="u101F"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="39"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="5">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u1004">
+            <Ligature components="u103A,u1039" glyph="u1085"/>
+          </LigatureSet>
+          <LigatureSet glyph="u101B">
+            <Ligature components="u103A,u1039" glyph="u1035"/>
+          </LigatureSet>
+          <LigatureSet glyph="u105A">
+            <Ligature components="u103A,u1039" glyph="u1085"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="6">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u1085">
+            <Ligature components="u1036" glyph="u1085_1036"/>
+            <Ligature components="u102D" glyph="u1085_102D"/>
+            <Ligature components="u102E" glyph="u1085_102E"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="7">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u102D">
+            <Ligature components="u1036" glyph="u102D_1036"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="8">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=3 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103C"/>
+            <Glyph value="u103C_big"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=2 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u1000"/>
+            <Glyph value="u1001"/>
+            <Glyph value="u1002"/>
+            <Glyph value="u1003"/>
+            <Glyph value="u1004"/>
+            <Glyph value="u1005"/>
+            <Glyph value="u1006"/>
+            <Glyph value="u1007"/>
+            <Glyph value="u1008"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100F"/>
+            <Glyph value="u1010"/>
+            <Glyph value="u1011"/>
+            <Glyph value="u1012"/>
+            <Glyph value="u1013"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u1015"/>
+            <Glyph value="u1016"/>
+            <Glyph value="u1017"/>
+            <Glyph value="u1018"/>
+            <Glyph value="u1019"/>
+            <Glyph value="u101C"/>
+            <Glyph value="u101D"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="1" Format="2">
+            <Glyph value="u1039_1000"/>
+            <Glyph value="u1039_1001"/>
+            <Glyph value="u1039_1002"/>
+            <Glyph value="u1039_1003"/>
+            <Glyph value="u1039_1004"/>
+            <Glyph value="u1039_1005"/>
+            <Glyph value="u1039_1006"/>
+            <Glyph value="u1039_1007"/>
+            <Glyph value="u1039_1008"/>
+            <Glyph value="u1039_100B"/>
+            <Glyph value="u1039_100C"/>
+            <Glyph value="u1039_100F"/>
+            <Glyph value="u1039_1010"/>
+            <Glyph value="u1039_1011"/>
+            <Glyph value="u1039_1012"/>
+            <Glyph value="u1039_1013"/>
+            <Glyph value="u1039_1014"/>
+            <Glyph value="u1039_1015"/>
+            <Glyph value="u1039_1016"/>
+            <Glyph value="u1039_1017"/>
+            <Glyph value="u1039_1018"/>
+            <Glyph value="u1039_1019"/>
+            <Glyph value="u1039_101C"/>
+            <Glyph value="u1039_101D"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="40"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103C"/>
+            <Glyph value="u103C_big"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=2 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u1000"/>
+            <Glyph value="u1001"/>
+            <Glyph value="u1002"/>
+            <Glyph value="u1003"/>
+            <Glyph value="u1004"/>
+            <Glyph value="u1005"/>
+            <Glyph value="u1006"/>
+            <Glyph value="u1007"/>
+            <Glyph value="u1008"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100F"/>
+            <Glyph value="u1010"/>
+            <Glyph value="u1011"/>
+            <Glyph value="u1012"/>
+            <Glyph value="u1013"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u1015"/>
+            <Glyph value="u1016"/>
+            <Glyph value="u1017"/>
+            <Glyph value="u1018"/>
+            <Glyph value="u1019"/>
+            <Glyph value="u101C"/>
+            <Glyph value="u101D"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="1" Format="1">
+            <Glyph value="u103D"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="40"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103C"/>
+            <Glyph value="u103C_big"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u1008"/>
+            <Glyph value="u1009"/>
+            <Glyph value="u100A"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100D"/>
+            <Glyph value="u101B"/>
+            <Glyph value="u1020"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="40"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="9">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103C"/>
+            <Glyph value="u103C_big"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=2 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u1000"/>
+            <Glyph value="u1001"/>
+            <Glyph value="u1002"/>
+            <Glyph value="u1003"/>
+            <Glyph value="u1004"/>
+            <Glyph value="u1005"/>
+            <Glyph value="u1006"/>
+            <Glyph value="u1007"/>
+            <Glyph value="u1008"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100F"/>
+            <Glyph value="u1010"/>
+            <Glyph value="u1011"/>
+            <Glyph value="u1012"/>
+            <Glyph value="u1013"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u1015"/>
+            <Glyph value="u1016"/>
+            <Glyph value="u1017"/>
+            <Glyph value="u1018"/>
+            <Glyph value="u1019"/>
+            <Glyph value="u101C"/>
+            <Glyph value="u101D"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="1" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="41"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="10">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=3 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="u103C"/>
+            <Glyph value="u103C_big"/>
+            <Glyph value="u103C_1"/>
+            <Glyph value="u103C_2"/>
+            <Glyph value="u103C_big_1"/>
+            <Glyph value="u103C_big_2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=3 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u1000"/>
+            <Glyph value="u1001"/>
+            <Glyph value="u1002"/>
+            <Glyph value="u1003"/>
+            <Glyph value="u1004"/>
+            <Glyph value="u1005"/>
+            <Glyph value="u1006"/>
+            <Glyph value="u1007"/>
+            <Glyph value="u1008"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100F"/>
+            <Glyph value="u1010"/>
+            <Glyph value="u1011"/>
+            <Glyph value="u1012"/>
+            <Glyph value="u1013"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u1015"/>
+            <Glyph value="u1016"/>
+            <Glyph value="u1017"/>
+            <Glyph value="u1018"/>
+            <Glyph value="u1019"/>
+            <Glyph value="u101C"/>
+            <Glyph value="u101D"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="1" Format="2">
+            <Glyph value="u1039_1000"/>
+            <Glyph value="u1039_1001"/>
+            <Glyph value="u1039_1002"/>
+            <Glyph value="u1039_1003"/>
+            <Glyph value="u1039_1004"/>
+            <Glyph value="u1039_1005"/>
+            <Glyph value="u1039_1006"/>
+            <Glyph value="u1039_1007"/>
+            <Glyph value="u1039_1008"/>
+            <Glyph value="u1039_100B"/>
+            <Glyph value="u1039_100C"/>
+            <Glyph value="u1039_100F"/>
+            <Glyph value="u1039_1010"/>
+            <Glyph value="u1039_1011"/>
+            <Glyph value="u1039_1012"/>
+            <Glyph value="u1039_1013"/>
+            <Glyph value="u1039_1014"/>
+            <Glyph value="u1039_1015"/>
+            <Glyph value="u1039_1016"/>
+            <Glyph value="u1039_1017"/>
+            <Glyph value="u1039_1018"/>
+            <Glyph value="u1039_1019"/>
+            <Glyph value="u1039_101C"/>
+            <Glyph value="u1039_101D"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="2" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="42"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="u103C"/>
+            <Glyph value="u103C_big"/>
+            <Glyph value="u103C_1"/>
+            <Glyph value="u103C_2"/>
+            <Glyph value="u103C_big_1"/>
+            <Glyph value="u103C_big_2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=3 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u1000"/>
+            <Glyph value="u1001"/>
+            <Glyph value="u1002"/>
+            <Glyph value="u1003"/>
+            <Glyph value="u1004"/>
+            <Glyph value="u1005"/>
+            <Glyph value="u1006"/>
+            <Glyph value="u1007"/>
+            <Glyph value="u1008"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100F"/>
+            <Glyph value="u1010"/>
+            <Glyph value="u1011"/>
+            <Glyph value="u1012"/>
+            <Glyph value="u1013"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u1015"/>
+            <Glyph value="u1016"/>
+            <Glyph value="u1017"/>
+            <Glyph value="u1018"/>
+            <Glyph value="u1019"/>
+            <Glyph value="u101C"/>
+            <Glyph value="u101D"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="1" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="2" Format="2">
+            <Glyph value="u1039_1000"/>
+            <Glyph value="u1039_1001"/>
+            <Glyph value="u1039_1002"/>
+            <Glyph value="u1039_1003"/>
+            <Glyph value="u1039_1004"/>
+            <Glyph value="u1039_1005"/>
+            <Glyph value="u1039_1006"/>
+            <Glyph value="u1039_1007"/>
+            <Glyph value="u1039_1008"/>
+            <Glyph value="u1039_100B"/>
+            <Glyph value="u1039_100C"/>
+            <Glyph value="u1039_100F"/>
+            <Glyph value="u1039_1010"/>
+            <Glyph value="u1039_1011"/>
+            <Glyph value="u1039_1012"/>
+            <Glyph value="u1039_1013"/>
+            <Glyph value="u1039_1014"/>
+            <Glyph value="u1039_1015"/>
+            <Glyph value="u1039_1016"/>
+            <Glyph value="u1039_1017"/>
+            <Glyph value="u1039_1018"/>
+            <Glyph value="u1039_1019"/>
+            <Glyph value="u1039_101C"/>
+            <Glyph value="u1039_101D"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="42"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="u103C"/>
+            <Glyph value="u103C_big"/>
+            <Glyph value="u103C_1"/>
+            <Glyph value="u103C_2"/>
+            <Glyph value="u103C_big_1"/>
+            <Glyph value="u103C_big_2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=2 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u1008"/>
+            <Glyph value="u1009"/>
+            <Glyph value="u100A"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100D"/>
+            <Glyph value="u101B"/>
+            <Glyph value="u1020"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="1" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="42"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="11">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u100B">
+            <Ligature components="u1039_100B" glyph="u100B_1039_100B"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="12">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u100D">
+            <Ligature components="u1039,u100D" glyph="u100D_1039_100D"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="13">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u100E">
+            <Ligature components="u1039,u100D" glyph="u100E_1039_100D"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="14">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u100F">
+            <Ligature components="u1039,u100D" glyph="u100F_100D"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="15">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u103E">
+            <Ligature components="u1030" glyph="u103E_1030"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="16">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=3 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="u100A"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u101B"/>
+            <Glyph value="u1025"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+            <Glyph value="u103B"/>
+            <Glyph value="u103D"/>
+            <Glyph value="u1039_1000"/>
+            <Glyph value="u1039_1001"/>
+            <Glyph value="u1039_1002"/>
+            <Glyph value="u1039_1003"/>
+            <Glyph value="u1039_1004"/>
+            <Glyph value="u1039_1005"/>
+            <Glyph value="u1039_1006"/>
+            <Glyph value="u1039_1007"/>
+            <Glyph value="u1039_1008"/>
+            <Glyph value="u1039_100B"/>
+            <Glyph value="u1039_100C"/>
+            <Glyph value="u1039_100F"/>
+            <Glyph value="u1039_1010"/>
+            <Glyph value="u1039_1011"/>
+            <Glyph value="u1039_1012"/>
+            <Glyph value="u1039_1013"/>
+            <Glyph value="u1039_1014"/>
+            <Glyph value="u1039_1015"/>
+            <Glyph value="u1039_1016"/>
+            <Glyph value="u1039_1017"/>
+            <Glyph value="u1039_1018"/>
+            <Glyph value="u1039_1019"/>
+            <Glyph value="u1039_101C"/>
+            <Glyph value="u1039_101D"/>
+            <Glyph value="u1039_101D_103E"/>
+            <Glyph value="u103E_102F"/>
+            <Glyph value="u103E_1030"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="43"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="u100A"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u101B"/>
+            <Glyph value="u1025"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=2 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="1" Format="1">
+            <Glyph value="u103B"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="43"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="u100A"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u101B"/>
+            <Glyph value="u1025"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=2 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="1" Format="2">
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+            <Glyph value="u103D"/>
+            <Glyph value="u1039_101D_103E"/>
+            <Glyph value="u103E_102F"/>
+            <Glyph value="u103E_1030"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="43"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="17">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u102B">
+            <Ligature components="u103A" glyph="u102B_103A"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="18">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=3 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u1014"/>
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+            <Glyph value="u102F_long"/>
+            <Glyph value="u1030_long"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u1037"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="44"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="1">
+            <Glyph value="u1014"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u1037"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="44"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="u1036"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="1">
+            <Glyph value="u103E"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u1037"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="44"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="19">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=4 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u1039_1000"/>
+            <Glyph value="u1039_1001"/>
+            <Glyph value="u1039_1002"/>
+            <Glyph value="u1039_1003"/>
+            <Glyph value="u1039_1004"/>
+            <Glyph value="u1039_1005"/>
+            <Glyph value="u1039_1006"/>
+            <Glyph value="u1039_1007"/>
+            <Glyph value="u1039_1008"/>
+            <Glyph value="u1039_100B"/>
+            <Glyph value="u1039_100C"/>
+            <Glyph value="u1039_100F"/>
+            <Glyph value="u1039_1010"/>
+            <Glyph value="u1039_1011"/>
+            <Glyph value="u1039_1012"/>
+            <Glyph value="u1039_1013"/>
+            <Glyph value="u1039_1014"/>
+            <Glyph value="u1039_1015"/>
+            <Glyph value="u1039_1016"/>
+            <Glyph value="u1039_1017"/>
+            <Glyph value="u1039_1018"/>
+            <Glyph value="u1039_1019"/>
+            <Glyph value="u1039_101C"/>
+            <Glyph value="u1039_101D"/>
+            <Glyph value="u1039_101D_103E"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103B"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="45"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103B"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="u1039_101D_103E"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="45"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="u103D"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103B"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="45"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="3" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103B"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="u103D"/>
+            <Glyph value="u103E_alt"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="45"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="20">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=2 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103E"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="u103B"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="46"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="u103B"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103E"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="46"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="21">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=6 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u103B"/>
+            <Glyph value="u102F_long"/>
+            <Glyph value="u1030_long"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u1037"/>
+            <Glyph value="u1037_alt"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="47"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="1">
+            <Glyph value="u103B"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u1037"/>
+            <Glyph value="u1037_alt"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="47"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+            <Glyph value="u1037"/>
+            <Glyph value="u103D"/>
+            <Glyph value="u103E"/>
+            <Glyph value="u1039_101D_103E"/>
+            <Glyph value="u103E_102F"/>
+            <Glyph value="u103E_1030"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="1">
+            <Glyph value="u101B_alt"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u1037"/>
+            <Glyph value="u1037_alt"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="47"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="3" Format="3">
+          <!-- BacktrackGlyphCount=3 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u102F"/>
+            <Glyph value="u1030"/>
+            <Glyph value="u1037"/>
+            <Glyph value="u103D"/>
+            <Glyph value="u103E"/>
+            <Glyph value="u1039_101D_103E"/>
+            <Glyph value="u103E_102F"/>
+            <Glyph value="u103E_1030"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="2" Format="1">
+            <Glyph value="u101B_alt"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u1037"/>
+            <Glyph value="u1037_alt"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="47"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="4" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="u1032"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="1">
+            <Glyph value="u101B"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u1037"/>
+            <Glyph value="u1037_alt"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="47"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="5" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="u103E"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="1">
+            <Glyph value="u101B"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u1037"/>
+            <Glyph value="u1037_alt"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="47"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="22">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u103D">
+            <Ligature components="u1037" glyph="u103D_1037"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="23">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103D"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=2 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="1" Format="1">
+            <Glyph value="u1037"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="48"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="24">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="u103D_1037"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=2 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </InputCoverage>
+          <InputCoverage index="1" Format="1">
+            <Glyph value="u1037"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="49"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="25">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u100B">
+            <Ligature components="u1039_100C" glyph="u100B_1039_100C"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="26">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u101B"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="u102F_long"/>
+            <Glyph value="u1030_long"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="50"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="27">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="u101B_alt"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u102F_long"/>
+            <Glyph value="u1030_long"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="51"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="28">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u1085"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=2 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="u103B"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="1" Format="1">
+            <Glyph value="u102E"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="52"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="29">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="u1085_102E"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=2 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103B"/>
+          </InputCoverage>
+          <InputCoverage index="1" Format="1">
+            <Glyph value="u102E"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="53"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="30">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103E"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=2 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="1" Format="1">
+            <Glyph value="u102F"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="54"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="31">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="u103E_102F"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=2 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </InputCoverage>
+          <InputCoverage index="1" Format="1">
+            <Glyph value="u102F"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="55"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="32">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103E"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=2 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </LookAheadCoverage>
+          <LookAheadCoverage index="1" Format="1">
+            <Glyph value="u1030"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="56"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="33">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="u103E_1030"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=2 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="u102D"/>
+            <Glyph value="u102E"/>
+            <Glyph value="u1032"/>
+            <Glyph value="u1033"/>
+            <Glyph value="u1034"/>
+            <Glyph value="u1035"/>
+            <Glyph value="u1036"/>
+            <Glyph value="u103A"/>
+            <Glyph value="u1085_1036"/>
+            <Glyph value="u1085_102D"/>
+            <Glyph value="u1085_102E"/>
+            <Glyph value="u102D_1036"/>
+          </InputCoverage>
+          <InputCoverage index="1" Format="1">
+            <Glyph value="u1030"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="57"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="34">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=3 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u1000"/>
+            <Glyph value="u1001"/>
+            <Glyph value="u1002"/>
+            <Glyph value="u1003"/>
+            <Glyph value="u1004"/>
+            <Glyph value="u1005"/>
+            <Glyph value="u1006"/>
+            <Glyph value="u1007"/>
+            <Glyph value="u1008"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100F"/>
+            <Glyph value="u1010"/>
+            <Glyph value="u1011"/>
+            <Glyph value="u1012"/>
+            <Glyph value="u1013"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u1015"/>
+            <Glyph value="u1016"/>
+            <Glyph value="u1017"/>
+            <Glyph value="u1018"/>
+            <Glyph value="u1019"/>
+            <Glyph value="u101C"/>
+            <Glyph value="u101D"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="1">
+            <Glyph value="u103C"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103E"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="58"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="u1000"/>
+            <Glyph value="u1001"/>
+            <Glyph value="u1002"/>
+            <Glyph value="u1003"/>
+            <Glyph value="u1004"/>
+            <Glyph value="u1005"/>
+            <Glyph value="u1006"/>
+            <Glyph value="u1007"/>
+            <Glyph value="u1008"/>
+            <Glyph value="u100B"/>
+            <Glyph value="u100C"/>
+            <Glyph value="u100F"/>
+            <Glyph value="u1010"/>
+            <Glyph value="u1011"/>
+            <Glyph value="u1012"/>
+            <Glyph value="u1013"/>
+            <Glyph value="u1014"/>
+            <Glyph value="u1015"/>
+            <Glyph value="u1016"/>
+            <Glyph value="u1017"/>
+            <Glyph value="u1018"/>
+            <Glyph value="u1019"/>
+            <Glyph value="u101C"/>
+            <Glyph value="u101D"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1" Format="1">
+            <Glyph value="u103C_big"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103E"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="58"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="u100A"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u103E"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="58"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="35">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u1014"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="u103E"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="59"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="36">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u103E">
+            <Ligature components="u102F" glyph="u103E_102F"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="37">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u102F" out="u102F_long"/>
+          <Substitution in="u1030" out="u1030_long"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="38">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u1009" out="u1025"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="39">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u103C" out="u103C_big"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="40">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u103C" out="u103C_1"/>
+          <Substitution in="u103C_big" out="u103C_big_1"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="41">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u103C" out="u103C_2"/>
+          <Substitution in="u103C_big" out="u103C_big_2"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="42">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u103C" out="u103C_3"/>
+          <Substitution in="u103C_1" out="u103C_3"/>
+          <Substitution in="u103C_2" out="u103C_3"/>
+          <Substitution in="u103C_big" out="u103C_big_3"/>
+          <Substitution in="u103C_big_1" out="u103C_big_3"/>
+          <Substitution in="u103C_big_2" out="u103C_big_3"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="43">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u100A" out="u100A_alt"/>
+          <Substitution in="u1014" out="u1014_alt"/>
+          <Substitution in="u101B" out="u101B_alt"/>
+          <Substitution in="u1025" out="u1025_alt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="44">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u1037" out="u1037_alt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="45">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u103B" out="u103B_alt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="46">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u103E" out="u103E_alt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="47">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u1037" out="u1037_alt2"/>
+          <Substitution in="u1037_alt" out="u1037_alt2"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="48">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u103D" out="u103D_1037"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="49">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u102D">
+            <Ligature components="u1037" glyph="u102D"/>
+          </LigatureSet>
+          <LigatureSet glyph="u102D_1036">
+            <Ligature components="u1037" glyph="u102D_1036"/>
+          </LigatureSet>
+          <LigatureSet glyph="u102E">
+            <Ligature components="u1037" glyph="u102E"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1032">
+            <Ligature components="u1037" glyph="u1032"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1033">
+            <Ligature components="u1037" glyph="u1033"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1034">
+            <Ligature components="u1037" glyph="u1034"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1035">
+            <Ligature components="u1037" glyph="u1035"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1036">
+            <Ligature components="u1037" glyph="u1036"/>
+          </LigatureSet>
+          <LigatureSet glyph="u103A">
+            <Ligature components="u1037" glyph="u103A"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1085_102D">
+            <Ligature components="u1037" glyph="u1085_102D"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1085_102E">
+            <Ligature components="u1037" glyph="u1085_102E"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1085_1036">
+            <Ligature components="u1037" glyph="u1085_1036"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="50">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u101B" out="u101B_alt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="51">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u102F_long" out="u102F"/>
+          <Substitution in="u1030_long" out="u1030"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="52">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u1085" out="u1085_102E"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="53">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u103B">
+            <Ligature components="u102E" glyph="u103B"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="54">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u103E" out="u103E_102F"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="55">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u102D">
+            <Ligature components="u102F" glyph="u102D"/>
+          </LigatureSet>
+          <LigatureSet glyph="u102D_1036">
+            <Ligature components="u102F" glyph="u102D_1036"/>
+          </LigatureSet>
+          <LigatureSet glyph="u102E">
+            <Ligature components="u102F" glyph="u102E"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1032">
+            <Ligature components="u102F" glyph="u1032"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1033">
+            <Ligature components="u102F" glyph="u1033"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1034">
+            <Ligature components="u102F" glyph="u1034"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1035">
+            <Ligature components="u102F" glyph="u1035"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1036">
+            <Ligature components="u102F" glyph="u1036"/>
+          </LigatureSet>
+          <LigatureSet glyph="u103A">
+            <Ligature components="u102F" glyph="u103A"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1085_102D">
+            <Ligature components="u102F" glyph="u1085_102D"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1085_102E">
+            <Ligature components="u102F" glyph="u1085_102E"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1085_1036">
+            <Ligature components="u102F" glyph="u1085_1036"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="56">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u103E" out="u103E_1030"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="57">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="u102D">
+            <Ligature components="u1030" glyph="u102D"/>
+          </LigatureSet>
+          <LigatureSet glyph="u102D_1036">
+            <Ligature components="u1030" glyph="u102D_1036"/>
+          </LigatureSet>
+          <LigatureSet glyph="u102E">
+            <Ligature components="u1030" glyph="u102E"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1032">
+            <Ligature components="u1030" glyph="u1032"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1033">
+            <Ligature components="u1030" glyph="u1033"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1034">
+            <Ligature components="u1030" glyph="u1034"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1035">
+            <Ligature components="u1030" glyph="u1035"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1036">
+            <Ligature components="u1030" glyph="u1036"/>
+          </LigatureSet>
+          <LigatureSet glyph="u103A">
+            <Ligature components="u1030" glyph="u103A"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1085_102D">
+            <Ligature components="u1030" glyph="u1085_102D"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1085_102E">
+            <Ligature components="u1030" glyph="u1085_102E"/>
+          </LigatureSet>
+          <LigatureSet glyph="u1085_1036">
+            <Ligature components="u1030" glyph="u1085_1036"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="58">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u103E" out=""/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="59">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="u1014" out="u1014_alt"/>
+        </SingleSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>

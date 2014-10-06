@@ -1,0 +1,187 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/myanmarsanspro/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/myanmarsanspro/builds/build
+$ cp -a MyanmarSansPro-Regular.ttf.ttx src/MyanmarSansPro_volt.ttf.ttx MyanmarSansPro-Regular.ttf._c_m_a_p.ttx MyanmarSansPro-Regular.ttf._g_l_y_f.ttx MyanmarSansPro-Regular.ttf.GlyphOrder.ttx MyanmarSansPro-Regular.ttf._h_m_t_x.ttx MyanmarSansPro-Regular.ttf._n_a_m_e.ttx MyanmarSansPro-Regular.ttf._p_o_s_t.ttx MyanmarSansPro-Regular.ttf._m_a_x_p.ttx MyanmarSansPro-Regular.ttf._h_e_a_d.ttx MyanmarSansPro-Regular.ttf.G_S_U_B_.ttx MyanmarSansPro-Regular.ttf.G_P_O_S_.ttx MyanmarSansPro-Regular.ttf._h_h_e_a.ttx MyanmarSansPro-Regular.ttf._g_a_s_p.ttx MyanmarSansPro-Regular.ttf._l_o_c_a.ttx MyanmarSansPro-Regular.ttf.O_S_2f_2.ttx MyanmarSansPro-Regular.ttf.G_D_E_F_.ttx src/MyanmarSansPro_volt.ttf._n_a_m_e.ttx src/MyanmarSansPro_volt.ttf._h_m_t_x.ttx src/MyanmarSansPro_volt.ttf._c_m_a_p.ttx src/MyanmarSansPro_volt.ttf._h_e_a_d.ttx src/MyanmarSansPro_volt.ttf.GlyphOrder.ttx src/MyanmarSansPro_volt.ttf.O_S_2f_2.ttx src/MyanmarSansPro_volt.ttf._l_o_c_a.ttx src/MyanmarSansPro_volt.ttf._m_a_x_p.ttx src/MyanmarSansPro_volt.ttf._h_h_e_a.ttx src/MyanmarSansPro_volt.ttf.G_S_U_B_.ttx src/MyanmarSansPro_volt.ttf._g_l_y_f.ttx src/MyanmarSansPro_volt.ttf.G_P_O_S_.ttx src/MyanmarSansPro_volt.ttf._p_o_s_t.ttx src/MyanmarSansPro_volt.ttf._g_a_s_p.ttx src/MyanmarSansPro_volt.ttf.T_S_I_V_.ttx src/MyanmarSansPro_volt.ttf.G_D_E_F_.ttx /home/travis/build/fontdirectory/myanmarsanspro/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/myanmarsanspro/builds/build/sources/MyanmarSansPro-Regular.ttf.ttx /home/travis/build/fontdirectory/myanmarsanspro/builds/build/sources/MyanmarSansPro_volt.ttf.ttx > fontaine.txt
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): FAIL
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): FAIL
+$ fontbakery-check.py upstream-ttx MyanmarSansPro-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/myanmarsanspro/builds/build/sources/MyanmarSansPro-Regular.ttf.ttx /home/travis/build/fontdirectory/myanmarsanspro/builds/build/sources/MyanmarSansPro-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): FAIL
+$ fontbakery-check.py upstream-ttx MyanmarSansPro_volt.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/myanmarsanspro/builds/build/sources/MyanmarSansPro_volt.ttf.ttx /home/travis/build/fontdirectory/myanmarsanspro/builds/build/sources/MyanmarSansPro-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): FAIL
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/myanmarsanspro/builds/build /home/travis/build/fontdirectory/myanmarsanspro/builds/build/sources/MyanmarSansPro-Regular.ttx
+Compiling "/home/travis/build/fontdirectory/myanmarsanspro/builds/build/sources/MyanmarSansPro-Regular.ttx" to "/home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'TSIV' table...
+### Test MyanmarSansPro-Regular.ttf
+$ fontbakery-check.py result MyanmarSansPro-Regular.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+$ mv /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf.fix /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+Parameter              MyanmarSansPro-Regular.ttf    
+ymax                   979                           
+hhea.ascent            979                           
+OS/2.sTypoAscender     979                           
+OS/2.usWinAscent       979                           
+ymin                   -294                          
+hhea.descent           -294                          
+OS/2.sTypoDescender    -294                          
+OS/2.usWinDescent      294                           
+hhea.lineGap           0                             
+OS/2.sTypoLineGap      0                             
+hhea total             1273                          
+typo total             1273                          
+win total              1273                          
+UPM:Heights            1000:1273                     
+UPM:Heights %          127 %                         
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): ERROR
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+$ mv /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf.fix /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+$ mv /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf.fix /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+$ mv /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf.fix /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+$ mv /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf.fix /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'TSIV'
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+$ mv /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf.fix /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+$ mv /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf.fix /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+$ mv /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf.fix /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+### Optimize TTF MyanmarSansPro-Regular.ttf
+$ ls -l 'MyanmarSansPro-Regular.ttf'* # look at the size savings of that subset process
+MyanmarSansPro-Regular.ttf.opt: 31184 bytes
+MyanmarSansPro-Regular.ttf: 67948 bytes
+$ mv /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf.opt /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+### Autohint TTFs (ttfautohint) MyanmarSansPro-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf '/home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.autohint.ttf'
+
+Error: No glyph for a standard character to derive standard width and height.
+
+Error: Please check the documentation for a list of script-specific standard characters,
+
+Error: or use option `--symbol'.
+
+Fatal: Exited with return code 1 
+
+### Subset TTFs (pyftsubset) MyanmarSansPro-Regular.ttf
+$ pyftsubset MyanmarSansPro-Regular.latin
+$ pyftsubset MyanmarSansPro-Regular.menu
+spaceWidth is    253
+nbspWidth is     253
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/myanmarsanspro/builds/build/MyanmarSansPro-Regular.ttf
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/myanmarsanspro/builds/build
+{} exists
+Designer's name from font is: Danh Hong
+Error: unpack requires a string argument of length 12
+ERROR: BUILD FAILED

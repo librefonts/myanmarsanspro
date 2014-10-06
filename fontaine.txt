@@ -1,0 +1,60 @@
+Fonts
+  All fonts have the same character sets.
+  Font:
+    Common name: Myanmar Sans Pro
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright 2014 Google Inc. All Rights Reserved.
+    License: Licensed under the Apache License, Version 2.0
+    License url: http://www.apache.org/licenses/LICENSE-2.0
+    Version: Version 1.10 March 28, 2014
+    Vendor: Google Inc.
+    Vendor url: http://www.google.com/fonts
+    Designer: Danh Hong
+    Designer url: http://www.khmertype.org/
+    Glyph count: 249
+    Character count: 191
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: fragmentary
+          Percent coverage: 10
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 7
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 11
+  Font:
+    Common name: Myanmar Sans Pro
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright 2014 Google Inc. All Rights Reserved.
+    License: Licensed under the Apache License, Version 2.0
+    License url: http://www.apache.org/licenses/LICENSE-2.0
+    Version: Version 1.10 March 28, 2014
+    Vendor: Google Inc.
+    Vendor url: http://www.google.com/fonts
+    Designer: Danh Hong
+    Designer url: http://www.khmertype.org/
+    Glyph count: 249
+    Character count: 191
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: fragmentary
+          Percent coverage: 10
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 7
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 11
